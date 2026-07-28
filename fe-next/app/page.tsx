@@ -17,7 +17,7 @@ export default function Home() {
         />
         <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
           <div>
-            <h3>Next.js 앱서비스 단독 배포 - Staging</h3>
+            <h3>Next.js 앱서비스 단독 배포</h3>
             <ol>
               <li>API_URL: {apiUrl}</li>
               <li>BLOB_URL: {blobUrl}</li>
