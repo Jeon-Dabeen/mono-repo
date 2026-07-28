@@ -7,7 +7,7 @@ export class AppService {
     const conStr = process.env.BLOB_CONNECTION_STRING ?? '(미설정)';
 
     return {
-      message: 'Hello World!-app service',
+      message: 'Hello World!-app service...⭐️',
       DATABASE_URL: dbUrl,
       BLOB_CONNECTION_STRING: conStr,
     };
